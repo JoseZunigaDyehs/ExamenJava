@@ -35,12 +35,6 @@
                                     <label class="w-25">Email: </label>
                                     <input type="email" class="form-control" placeholder="Ingresa email">
                                 </div>
-                                <div class="form-check d-flex align-items-center">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input">
-                                        Check me out
-                                    </label>
-                                </div>
                             </div>
                         </div>
                         <div class="col-4 mt-5">
@@ -79,8 +73,7 @@
                         </div>
                         <div class="col-8">
                             <div>
-                                <h4>Datos Empresa</h4>
-                                <div class="bg-white p-3 border my-3 d-flex flex-column">
+                                <div class="bg-white p-3 border mb-3  d-flex flex-column">
                                     <label >Seleccione Estacionamiento, indique la cantidadde dinero que mostró aplicación móvil</label>
                                     <div class="form-group d-flex align-items-center w-100">
 
@@ -90,11 +83,11 @@
                                             <option value="2">Two</option>
                                             <option value="3">Three</option>
                                         </select>
-                                        <a href="#!" class="btn btn-primary"> Agregar</a>
+                                        <a href="#!" class="btn btn-secondary"> Agregar</a>
                                     </div>
                                 </div>
                             </div>
-                            <table class="table table-sm table-hover">
+                            <table class="table table-sm table-hover table-morado">
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>

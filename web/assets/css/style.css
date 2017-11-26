@@ -24,6 +24,12 @@ body{
 .btn{
     cursor: pointer;
 }
+.table-morado{
+    background-color: rgba(26, 139, 165, 0.35) !important;
+}
+.btn-primary{
+    background-color: #685b88 !important;
+}
 .border-top {
     border-top: 1px solid rgba(0,0,0,0.6);
 }
