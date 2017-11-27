@@ -12,6 +12,12 @@ body{
     background-color: #f9f9f9;
     font-family: 'Lato', sans-serif;
 }
+header{
+    position: fixed;
+}
+main{
+    margin-left: 20%;
+}
 .hv-100{
     height: 100vh;
 }
@@ -39,6 +45,32 @@ header{
   background: -o-linear-gradient(to bottom right, #685b88, #1a0d3a); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to bottom right, #685b88, #1a0d3a); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #685b88, #1a0d3a);
+}
+body.index{
+    height: 100vh;
+  background: #1a0d3a; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(to bottom right, #685b88, #1a0d3a); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to bottom right, #685b88, #1a0d3a); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to bottom right, #685b88, #1a0d3a); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #685b88, #1a0d3a);
+}
+body.index .titulo-head{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 15rem;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+body.index .titulo-head i{
+    color: #f9f9f9;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 6rem;
+}
+body.index .titulo-head h6{
+    color: #f9f9f9;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 6rem;
 }
 header nav a{
     background-color: rgba(255,255,255,0.6);
@@ -75,4 +107,7 @@ header nav a:hover{
 header nav a{
     -webkit-transition: ease-in-out all 0.3s; /* Safari */
     transition: ease-in-out all 0.3s;
+}
+main#index{
+    width: 100%;
 }
